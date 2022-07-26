@@ -1,0 +1,174 @@
+body {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #031220 !important;
+    color: #f2f2f2 !important;
+}
+
+#everything {
+    width: 100%;
+}
+
+#buttons button,
+#montyMayhem button,
+#stats-text button {
+    background-color: #0e75a5 !important;
+    border: none !important;
+    transition: 0.15s !important;
+}
+
+#buttons button:hover,
+#montyMayhem button:hover,
+#stats-text button:hover {
+    background-color: #064663 !important;
+}
+
+#doors_section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.door {
+    width: 100px;
+    height: 130px;
+    border: 1px solid #f2f2f2;
+    background-color: #d49b54;
+}
+
+.door p {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+}
+
+.closed {
+    display: none;
+}
+
+#gameNnav {
+    width: 500px;
+    margin: auto;
+}
+
+#main {
+    width: 500px;
+    height: 330px;
+    background-color: #020a11;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    user-select: none;
+}
+
+#buttons {
+    text-align: center;
+    padding: 15px;
+}
+
+#istructions {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.navigation ul {
+    display: flex;
+    padding: 5px;
+}
+
+.navigation li {
+    padding: 8px;
+    font-size: 1.3rem;
+    list-style-type: none;
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.navigation li:hover {
+    opacity: 100%;
+}
+
+.navigation img {
+    width: 20px;
+}
+
+.nav-sub-text {
+    display: none !important;
+}
+
+#arrow {
+    transition: 100ms;
+}
+
+.arrow-active {
+    transform: rotate(40deg);
+}
+
+.nav-collapse-active {
+    display: flex !important;
+}
+
+#content {
+    width: 750px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #020a11;
+    padding: 10px;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+#stats-text,
+#info-text,
+#montyMayhem {
+    font-size: 1.15rem;
+    padding: 15px;
+    border-bottom: 1px solid #f2f2f2;
+
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 500ms;
+}
+
+#stats-text i {
+    padding: 8px;
+    color: #0e75a5;
+}
+
+#info-text {
+    text-align: justify;
+}
+
+#info-text a {
+    text-decoration: none;
+    color: #0e75a5;
+}
+
+#montyMayhem input[type="number"] {
+    width: 40px;
+    outline: none;
+    margin-right: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#montyMayhem form {
+    display: flex;
+}
+
+#montyMayhem p {
+    opacity: 70%;
+    font-size: 1rem;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+.active {
+    opacity: 100% !important;
+}

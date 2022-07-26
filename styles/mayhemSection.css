@@ -1,0 +1,42 @@
+#mayhemGame {
+    display: none;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #020a11;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    user-select: none;
+}
+
+#mayhemButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#mayhemButtons button {
+    margin-right: 5px;
+    background-color: #0e75a5 !important;
+    border: none !important;
+    transition: 0.15s !important;
+}
+
+#mayhemButtons button:hover {
+    background-color: #064663 !important;
+}
+
+#mayhemDoors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 16px;
+}
+
+#mayhemDoors div {
+    margin-right: 5px;
+}
+
+#istructionsMayhem {
+    text-align: center;
+}
